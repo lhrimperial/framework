@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.framework.starter.dubbo.origin.DubboAutoConfiguration

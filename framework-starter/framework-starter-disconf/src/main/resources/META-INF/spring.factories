@@ -1,0 +1,3 @@
+
+org.springframework.context.ApplicationListener=\
+  com.github.framework.starter.disconf.boot.DisconfApplicationListener

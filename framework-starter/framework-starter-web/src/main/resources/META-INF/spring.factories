@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.framework.starter.web.druid.DruidMonitorConfiguration,\
+  com.github.framework.starter.web.log.LogTrackConfiguration,\
+  com.github.framework.starter.web.security.SecurityConfiguration

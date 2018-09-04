@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationListener=\
+  com.github.framework.starter.redis.boot.RedisApplicationListener
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.framework.starter.redis.boot.RedisCacheConfiguration,\
+  com.github.framework.starter.redis.boot.RedisClientConfiguration

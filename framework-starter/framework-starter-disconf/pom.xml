@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>framework-starter</artifactId>
+        <groupId>com.github.framework</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.framework</groupId>
+    <artifactId>framework-starter-disconf</artifactId>
+
+    <name>framework-starter-disconf</name>
+    <properties>
+        <java.verion>1.7</java.verion>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.githup.platform</groupId>
+            <artifactId>config-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.framework</groupId>
+            <artifactId>framework-starter-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,3 @@
+org.springframework.boot.SpringApplicationRunListener=\
+  com.github.framework.starter.core.FrameApplicationRunListener
+
