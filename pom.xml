@@ -15,8 +15,8 @@
     <module>framework-dependencies</module>
     <module>framework-util</module>
     <module>framework-server</module>
-    <module>framework-test</module>
     <module>framework-starter</module>
+    <module>framework-test</module>
     <!--<module>framework-archetype</module>-->
   </modules>
 </project>
