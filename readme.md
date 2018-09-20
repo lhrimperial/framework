@@ -4,11 +4,12 @@ framework-test下，有各个集成模块的测试应用，可供使用参考。
 
 ### 各模块说明
 framework
-    - framework-archetype   自定义maven骨架，里面定义了一个业务服务分层
-    - framework-dependencies    统一管理第三方依赖版本
-    - framework-server      封装了web开发中常用组件，权限拦截、XSS拦截、缓存等
-    - framework-util        常用工具
-    - framework-starter     springboot整合常用框架
+
+- framework-archetype   自定义maven骨架，里面定义了一个业务服务分层
+- framework-dependencies    统一管理第三方依赖版本
+- framework-server      封装了web开发中常用组件，权限拦截、XSS拦截、缓存等
+- framework-util        常用工具
+- framework-starter     springboot整合常用框架
 
 ### 其他模块使用说明
 ##### [jdbc使用说明](./reference/jdbc-readme.md)
