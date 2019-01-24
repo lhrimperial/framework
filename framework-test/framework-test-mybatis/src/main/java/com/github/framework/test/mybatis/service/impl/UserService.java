@@ -6,6 +6,7 @@ import com.github.framework.test.mybatis.service.IUserService;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -19,8 +20,11 @@ public class UserService implements IUserService {
     private UserMapper userMapper;
 
     @Override
+    @Transactional
     public void save(UserPO userPO) {
         userMapper.save(userPO);
+        String str = null;
+        str.length();
     }
 
     @Override

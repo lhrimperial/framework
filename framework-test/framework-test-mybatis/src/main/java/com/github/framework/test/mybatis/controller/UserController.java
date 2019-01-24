@@ -27,9 +27,13 @@ public class UserController {
 
     @RequestMapping("/save")
     public String saveUser() {
-        Random r = new Random();
-        UserPO userPO = new UserPO(r.nextInt(10), "hello"+r.nextInt(100));
-        userService.save(userPO);
+        try {
+            Random r = new Random();
+            UserPO userPO = new UserPO(r.nextInt(10), "hello"+r.nextInt(100));
+            userService.save(userPO);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return "success";
     }
 
