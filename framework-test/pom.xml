@@ -17,7 +17,7 @@
         <module>framework-test-dubbo-consumer</module>
         <module>framework-test-dubbo-api</module>
         <module>framework-test-redis</module>
-        <module>framework-test-disconf</module>
+        <!--<module>framework-test-disconf</module>-->
     </modules>
 
     <properties>
