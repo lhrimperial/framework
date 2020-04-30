@@ -18,10 +18,10 @@
     </properties>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>com.githup.platform</groupId>
             <artifactId>config-client</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.github.framework</groupId>
             <artifactId>framework-starter-core</artifactId>

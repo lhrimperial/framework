@@ -22,7 +22,7 @@
         <module>framework-starter-dubbo-native</module>
         <module>framework-starter-rocketmq</module>
         <module>framework-starter-sharding-jdbc</module>
-        <module>framework-starter-disconf</module>
+<!--        <module>framework-starter-disconf</module>-->
     </modules>
 
     <properties>
