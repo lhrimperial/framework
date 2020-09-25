@@ -58,11 +58,11 @@
                 <version>${framework-server-version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.github.framework</groupId>
-                <artifactId>framework-starter-disconf</artifactId>
-                <version>${framework-starter-version}</version>
-            </dependency>
+<!--            <dependency>-->
+            <!--                <groupId>com.github.framework</groupId>-->
+            <!--                <artifactId>framework-starter-disconf</artifactId>-->
+            <!--                <version>${framework-starter-version}</version>-->
+            <!--            </dependency>-->
             <dependency>
                 <groupId>com.github.framework</groupId>
                 <artifactId>framework-starter-jdbc</artifactId>
