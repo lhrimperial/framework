@@ -12,7 +12,7 @@
         <!--alibaba-->
         <druid.version>1.1.5</druid.version>
         <dubbo.version>2.5.8</dubbo.version>
-        <fastjson.version>1.2.32</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <!--DB-->
         <mysql.version>5.1.18</mysql.version>
         <mybatis.version>3.4.5</mybatis.version>
